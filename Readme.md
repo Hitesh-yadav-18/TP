@@ -48,7 +48,7 @@ The Firewall also knows which website is currently user using. So if a hacker tr
 
 Let's discuss one by one :
 
-1. ### **Packet Filtering Firewall**
+### **1. Packet Filtering Firewall**
 
  Suppose we want to download some file of size 500Mb from the network, then it will download in chunks in form of a data packet instead of the whole at a time. Did you notice the word "**data packet**"? Yes, it's time to know it.
 
@@ -62,12 +62,12 @@ Let's continue with our 500Mb file which receives in the local machine in form o
 
 Packet filtering is generally performed by a device like router.
 
-### Limitations of packet filtering
+#### **Limitations of packet filtering**
 
  Packet filtering is less secure because it only checked the header part of the data packet and leaves the payload part as it is. An intruder can send some malicious information with the payload part.
 </br> </br>
 
-2. ### **Proxy/Application Firewall**
+### **2. Proxy/Application Firewall**
 
  Suppose your mother asks you to buy a pen for her. You will buy a pen from a shopkeeper and give it to your mother and shopkeeper even don't know who will use it. Now replace these real-world obejcts with a technical terms as:
 
@@ -79,11 +79,11 @@ Shopkeeper |->| Internet
 
 Whenever someone made a request using the local machine, a proxy machine will be in between the local and the internet network which will take a request from the local machine send that request to the internet, and the internet will return a  response to the proxy machine and proxy then be sent to the local machine. So no computer on internet network will know which system used the response.
 
-### Limitation of proxy firewall
+#### **Limitation of proxy firewall**
 
  The proxy firewall is more secure than packet filtering because it checked the header part of the data packet as well as the payload part. This inspection will make it more secure. But the limitation is, it makes the verification  process of data packets slower than packet filtering.
 
-3. ### **Hybrid Firewall**
+### **3. Hybrid Firewall**
 
  A Hybrid firewall is a combination of both packet filtering and a proxy firewall. In a Hybrid firewall either we connect these firewalls in parallel or series. But Wait! I have a question for you: If there have two different tracks to reach Bengaluru parallelly and police blocked one of the routes. Can you reach the city? Your answer might be - Yes, But what if we have only 1 route with 2 different check-posts. Will you make it now? The answer is no because now the security is higher. The Same thing happens with a hybrid firewall if we connect the packet and proxy firewalls in parallel then one of the firewall become redundant. So instead of using them in parallel use them in series so that it provides more security.
 
