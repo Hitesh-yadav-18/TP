@@ -79,9 +79,9 @@ Whenever someone made a request using the local machine, a proxy machine will be
 
  A Hybrid firewall is a combination of both packet filtering and a proxy firewall. In a Hybrid firewall either we connect these firewalls in parallel or series. But Wait! I have a question for you: If there have two different tracks to reach Bengaluru parallelly and police blocked one of the routes. Can you reach the city? Your answer might be - Yes, But what if we have only 1 route with 2 different check-posts. Will you make it now? The answer is no because now the security is higher. The Same thing happens with a hybrid firewall if we connect the packet and proxy firewalls in parallel then one of the firewall become redundant. So instead of using them in parallel use them in series so that it provides more security.
 
-You can also watched the topic on youtube in case you need a better visual explanation with the topic:
+ [![Youtube Videos link](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd4on3MXL-xAFSFtFeb-JkNOa1ZHfHGnXogQ&usqp=CAU)](https://www.youtube.com/playlist?list=PLBbU9-SUUCwV7Dpk7GI8QDLu3w54TNAA6)
 
- [![IMAGE ALT TEXT HERE](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd4on3MXL-xAFSFtFeb-JkNOa1ZHfHGnXogQ&usqp=CAU)](https://www.youtube.com/playlist?list=PLBbU9-SUUCwV7Dpk7GI8QDLu3w54TNAA6)
+Watch the **videos** about the firewall by clicking the image above.
 
 ## **Firewall Classification based on Usages**
 
