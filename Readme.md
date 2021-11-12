@@ -42,7 +42,7 @@ Let's discuss one by one :
 
 ### **1. Packet Filtering Firewall**
 
- Suppose we want to download some file of size 500Mb from the network, then it will download in chunks in form of a data packet instead of the whole at a time. Did you notice the word "**data packet**"? Yes, it's time to know it.
+ Suppose we want to download some file of size 500Mb from the network, then it will download in chunks in form of a data packet instead of the whole at a time. Did you notice the word data packet? Yes, it's time to know it.
 
 ![data packet](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7WX4GRUsofSNDoisbWkh_f8K6qm7pluCpag&usqp=CAU)
 
