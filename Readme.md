@@ -8,8 +8,6 @@ Hey Reader! Hopefully, you were looking for an article that will help you to und
 
 ## What is Firewall ?
 
----
-
 An introduction to a firewall is essential for a beginner. If you are not a beginner, just skip this paragraph. A Firewall as the name suggests is that it is a barrier to protect computer systems and networks from outside attacks. The answer to the question **What is a Computer Firewall?** The purpose of a Firewall is to act as the first line of defense in network security. You can define a Firewall as a network security system that acts as a barrier between internal network and external sources like the internet to intercept and block data packets that don’t conform to its set of rules. Okay, Did you notice the term **Data Packet**? Don't worry about it. We will talk about it later in the article.
 
 _A firewall is a [network security](https://en.wikipedia.org/wiki/Network_security) hardware device or a program in our computer itself that monitors incoming and outgoing network traffic and permits or blocks data packets based on a set of security rules. Its purpose is to establish a barrier between your internal network and incoming traffic from external sources (such as the internet) in order to block malicious traffic like viruses and hackers._
@@ -18,13 +16,9 @@ I Hope now you have a basic idea of What is Firewall and its the purpose? Okay t
 
 ## Need of Firewall
 
----
-
 Everyone loves to interact with the internet. But it also enables the outside world to interact with the internal network of the individual. This creates a threat to the security of either individual or an organization. To secure the internal network from _unauthorized traffic_, we need a Firewall.
 
 ## How does Firewall Works ?
-
----
 
 Let's knows how firewalls protect us to become a victim of hackers. Internet is the source of an untrusted networks. Whenever we send a request for accessing a website from our computer to the network, the internet will give us a response to our system. But sometimes hackers get access to this network connection using some [network attacking techniques
 ](https://en.wikipedia.org/wiki/Network_security "Network security") and try to steal our information, but the firewall protects us from these malicious users called hackers.
@@ -39,8 +33,6 @@ The Firewall also knows which website is currently user using. So if a hacker tr
 * [Additional Reference: How Firewall Works with ruleset?](https://www.geeksforgeeks.org/introduction-of-firewall-in-computer-network/)
 
 ## Types of Firewall
-
----
 
 1. Packet Filtering Firewall
 2. Proxy/Application Firewall
@@ -93,8 +85,6 @@ You can also watched the topic on youtube in case you need a better visual expla
 
 ## **Firewall Classification based on Usages**
 
----
-
 Do you know which firewall we should use?
 
 Well, it depends upon the _implementation environment_ of the firewall. We use some numbers to repersent which one is recommended for different usages:
@@ -116,8 +106,6 @@ Proxy | 3| 4| 2
 Hybrid|4|3|2
 
 ## **Limitations of Firewall**
-
----
 
 Everything has a positive and negative side. Isn't it? Yes, it is good to know that a Firewall protects us from malicious attacks. Yet it has a few limitations as well. Let's check out the following content below:
 
@@ -141,8 +129,6 @@ So it is always better to use a trusted anti-virus or anti-malware software.
 
 ## **Hardware Firewall vs Software Firewall**
 
----
-
 **Software Firewall** |**Hardware Firewall**
 -------------|---------------------
 Software Firewall operates on the system. |Hardware Firewall does not operate on the system.
@@ -156,8 +142,6 @@ It has needed to be installed on every individual system on a network.|It needs 
 
 #### **Point to Remember**
 
----
-
 If we noticed the main difference is to use a hardware firewall is it secures the whole network instead of a single computer.
 
 * [Reference to above difference table](https://www.geeksforgeeks.org/difference-between-hardware-firewall-and-software-firewall/ "GeeksForGeeks")
@@ -170,8 +154,6 @@ Whoo-whoo Finally !! you made it. Congratulations!! for completion of the articl
                                     Month  : Nov'21
 </br></br></br>
 Here are few more references to learn more about firewalls:
-
----
 
 * [Jigsawacademy: What is firewall?](https://www.jigsawacademy.com/blogs/cyber-security/what-is-firewall/ "jigsawacademy")
 
